@@ -1,7 +1,8 @@
 module IEEE_energy_markets_test_case
 import JLD2#pin to v0.4.0
 import PlotlyJS
-import Gurobi
+#import Gurobi
+import Cbc
 import JuMP#pin to v0.21.10
 import JSON
 import CSV
